@@ -1,0 +1,16 @@
+#ball {
+	width: 15vw;
+	height: 15vw;
+	border-radius: 50%;
+	background-color: aquamarine;
+	position: absolute;
+	top: 45%;
+	left: 45%;
+}
+
+@media screen and (max-width: 500px) {
+	#ball {
+		width: 35vw;
+		height: 35vw;
+	}
+}
